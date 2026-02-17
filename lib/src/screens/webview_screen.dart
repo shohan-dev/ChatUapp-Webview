@@ -149,9 +149,9 @@ class _WebViewScreenState extends State<WebViewScreen> {
 
   @override
   Widget build(BuildContext context) {
-    if (!_hasInternet) {
-      return NoInternetScreen(onRetry: _checkInternetAndReload);
-    }
+    // if (!_hasInternet) {
+    //   return NoInternetScreen(onRetry: _checkInternetAndReload);
+    // }
 
     return PopScope(
       canPop: false,
